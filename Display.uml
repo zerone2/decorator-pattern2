@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Display.Display</OriginalElement>
+  <nodes>
+    <node x="569.0" y="141.0">Display.RoadDisplay</node>
+    <node x="0.0" y="282.0">DisplayDecorator.CrossingDecorator</node>
+    <node x="13.0" y="-3.0">MakeDisplay</node>
+    <node x="453.25" y="0.0">Display.Display</node>
+    <node x="560.0" y="282.0">DisplayDecorator.TrafficDecorator</node>
+    <node x="294.0" y="282.0">DisplayDecorator.LaneDecorator</node>
+    <node x="285.0" y="113.0">DisplayDecorator.DisplayDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DisplayDecorator.DisplayDecorator" target="Display.Display">
+      <point x="0.0" y="-59.5" />
+      <point x="417.0" y="88.0" />
+      <point x="493.0" y="88.0" />
+      <point x="-39.75" y="31.5" />
+    </edge>
+    <edge source="DisplayDecorator.TrafficDecorator" target="DisplayDecorator.DisplayDecorator">
+      <point x="0.0" y="-61.0" />
+      <point x="688.0" y="257.0" />
+      <point x="505.0" y="257.0" />
+      <point x="88.0" y="59.5" />
+    </edge>
+    <edge source="DisplayDecorator.LaneDecorator" target="DisplayDecorator.DisplayDecorator">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="Display.RoadDisplay" target="Display.Display">
+      <point x="0.0" y="-31.5" />
+      <point x="648.5" y="88.0" />
+      <point x="572.5" y="88.0" />
+      <point x="39.75" y="31.5" />
+    </edge>
+    <edge source="DisplayDecorator.CrossingDecorator" target="DisplayDecorator.DisplayDecorator">
+      <point x="0.0" y="-61.0" />
+      <point x="137.0" y="257.0" />
+      <point x="329.0" y="257.0" />
+      <point x="-88.0" y="59.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="408.0" y="257.0" />
+  <SelectedNodes>
+    <node>MakeDisplay</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
